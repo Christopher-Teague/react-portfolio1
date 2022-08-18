@@ -2,7 +2,7 @@ import React from 'react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsPersonLinesFill } from 'react-icons/bs'
-import { MdViewSidebar } from 'react-icons/md'
+// import { MdViewSidebar } from 'react-icons/md'
 
 const SocialLinks = () => {
 
