@@ -11,7 +11,7 @@ const Contact = () => {
             name="contact"
             className="p-10 w-full h-screen bg-gradient-to-b from-slate-900 to-slate-800 text-white"
         >
-            <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
+            <div className="flex flex-col py-4 px-8 justify-center max-w-screen-lg mx-auto h-full">
                 {/* header */}
                 <div>
                     <p className="text-4xl font-bold inline border-b-4 border-gray-500">
@@ -24,7 +24,7 @@ const Contact = () => {
                 <div className="flex justify-center items-center">
                     <form
                         action="https://getform.io/f/b6becccd-c943-4501-94c3-7d996e8645b3"
-                        className="flex flex-col w-full md:w-1/2"
+                        className="flex flex-col w-full md:w-3/4"
                         method="POST"
                     >
                         <input

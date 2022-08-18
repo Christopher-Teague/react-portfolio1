@@ -48,7 +48,7 @@ const tools = [
 const Experience = () => {
     return (
         <div name='experience' className='p-10 bg-gradient-to-b from-slate-800 to-slate-900 w-full h-screen text-white'>
-            <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
+            <div className='max-w-screen-lg py-4 px-8 mx-auto flex flex-col justify-center w-full h-full'>
 
                 {/* header */}
                 <div>

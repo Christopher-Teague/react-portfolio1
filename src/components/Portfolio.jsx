@@ -30,7 +30,7 @@ const Portfolio = () => {
             name="portfolio"
             className="p-10 bg-gradient-to-b from-slate-900 to-slate-800 w-full md:h-screen text-white"
         >
-            <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+            <div className="max-w-screen-lg py-4 px-8 mx-auto flex flex-col justify-center w-full h-full">
                 {/* Heading */}
 
                 <div className="pb-8 ">
