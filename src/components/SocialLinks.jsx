@@ -10,7 +10,7 @@ const SocialLinks = () => {
             id: 1,
             child: (
                 <>
-                    LinkedIn <FaLinkedin size={30}/>
+                    LinkedIn <FaLinkedin size={30} />
                 </>
             ),
             href: 'https://www.linkedin.com/in/christopherteague/',
@@ -20,17 +20,18 @@ const SocialLinks = () => {
             id: 2,
             child: (
                 <>
-                    GitHub <FaGithub size={30}/>
+                    GitHub <FaGithub size={30} />
                 </>
             ),
             href: 'https://github.com/Christopher-Teague',
             style: 'bg-gray-800'
         },
         {
+            ///// opens users mail client to send email to designated address \\\\\
             id: 3,
             child: (
                 <>
-                    Mail <HiOutlineMail size={30}/>
+                    Email <HiOutlineMail size={30} />
                 </>
             ),
             href: 'mailto:cmteague77@gmail.com',
@@ -40,41 +41,41 @@ const SocialLinks = () => {
             id: 4,
             child: (
                 <>
-                    Resume <BsPersonLinesFill size={30}/>
+                    Resume <BsPersonLinesFill size={30} />
                 </>
             ),
-            // href: '/resume.pdf',
             style: 'rounded-br-md bg-green-700',
-            download: true
-
+            ///// allow user to download pdf file from public folder \\\\\ 
+            /* href: '/resume.pdf',
+            download: true */
         }
     ]
 
-  return (
-    <div className='hidden lg:flex flex-col top-[33%] left-0 fixed'>
-        <ul>
+    return (
+        <div className='hidden lg:flex flex-col top-[33%] left-0 fixed'>
+            <ul>
 
-            {links.map(({id, child, href, style, download}) => (
+                {links.map(({ id, child, href, style, download }) => (
 
-            ///// next line will disable warning from eslint during compiling \\\\\ 
-            // eslint-disable-next-line
-            <li key={id} className={'flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-5px] hover:rounded-md duration-300' + " " + style}>
-                <a
-                    href={href}
-                    download={download}
-                    target='_blank'
-                    rel="noreferrer"
-                    className='flex justify-between items-center w-full text-white'
-                >
-                {child}
-                </a>
-            </li>
-            
-            ))}
+                    ///// next line will disable warning from eslint for concatenation \\\\\ 
+                    // eslint-disable-next-line
+                    <li key={id} className={'flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-5px] hover:rounded-md duration-300' + " " + style}>
+                        <a
+                            href={href}
+                            download={download}
+                            target='_blank'
+                            rel="noreferrer"
+                            className='flex justify-between items-center w-full text-white'
+                        >
+                            {child}
+                        </a>
+                    </li>
 
-        </ul>
-    </div>
-  )
+                ))}
+
+            </ul>
+        </div>
+    )
 }
 
 export default SocialLinks
