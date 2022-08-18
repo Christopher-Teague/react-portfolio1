@@ -5,7 +5,7 @@ import { Link } from 'react-scroll'
 
 
 const style = {
-    button: `group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-br from-cyan-500 to-blue-600`,
+    button: `group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-br from-cyan-500 to-blue-600 hover:scale-110 duration-300`,
 }
 
 const Home = () => {
@@ -23,6 +23,7 @@ const Home = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, aperiam adipisci est inventore iusto repudiandae, assumenda tenetur fugiat officia nostrum fugit illum blanditiis vel in. Ab eius autem provident necessitatibus!
                 </p>
 
+                {/* 'Portfolio button */}
                 <div>
                     <Link
                         to='portfolio'
