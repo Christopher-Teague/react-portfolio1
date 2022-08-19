@@ -18,10 +18,10 @@ const projects = [
         id: 4,
         src: placeholder,
     },
-    {
-        id: 5,
-        src: placeholder,
-    },
+    // {
+    //     id: 5,
+    //     src: placeholder,
+    // },
 ];
 
 const Portfolio = () => {
@@ -33,15 +33,15 @@ const Portfolio = () => {
             <div className="max-w-screen-lg py-4 px-8 mx-auto flex flex-col justify-center w-full h-full">
                 {/* Heading */}
 
-                <div className="pb-8 ">
+                <div className="pb-1 ">
                     <p className="text-4xl font-bold inline border-b-4 border-gray-500">
                         Portfolio
                     </p>
-                    <p className="py-6">Check out some of my work</p>
+                    <p className="py-4">// Check out some of my work</p>
                 </div>
 
                 {/* content */}
-                <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px0">
+                <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 px-12 sm:px0">
                     {/* map over projects array to display individually */}
 
                     {projects.map(({ id, src }) => (
