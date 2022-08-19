@@ -59,20 +59,20 @@ const SocialLinks = () => {
                 <MdViewSidebar size={30} className='text-gray-500' />
             </div> */}
 
-            <div className='hidden sm:flex flex-col top-[33%] left-0 fixed'>
+            <div className='hidden md:flex flex-col top-[33%] left-0 fixed'>
                 <ul>
 
                     {links.map(({ id, child, href, style, download }) => (
 
                         ///// next line will disable warning from eslint for concatenation \\\\\ 
                         // eslint-disable-next-line
-                        <li key={id} className={'flex justify-between items-center w-40 h-14 pl-5 pr-3 ml-[-110px] hover:ml-[-5px] hover:rounded-md duration-300' + " " + style}>
+                        <li key={id} className={'group flex justify-between items-center w-40 h-14 pl-5 pr-3 ml-[-110px] hover:ml-[-5px] hover:rounded-md duration-300' + " " + style}>
                             <a
                                 href={href}
                                 download={download}
                                 target='_blank'
                                 rel="noreferrer"
-                                className='flex justify-between items-center w-full text-gray-700 hover:text-white'
+                                className='flex justify-between items-center w-full text-slate-700 group-hover:text-white'
                             >
                                 {child}
                             </a>
