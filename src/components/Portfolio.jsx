@@ -1,5 +1,5 @@
 import React from "react";
-import placeholder from "../assets/skull-master-chef.png";
+// import placeholder from "../assets/skull-master-chef.png";
 import weather from '../assets/projectImages/Weather.png'
 import hotsauce from '../assets/projectImages/hotsauce.png'
 import chores from '../assets/projectImages/chores.png'
