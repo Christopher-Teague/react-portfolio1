@@ -52,7 +52,7 @@ const Experience = () => {
 
                 {/* header */}
                 <div>
-                    <p className='text-4xl font-bold inline border-b-4 border-gray-500 p-2'>Experience</p>
+                    <p className='text-4xl font-bold inline border-b-4 border-red-700 p-2'>Experience</p>
                     <p className='py-6'>These are the technologies that I'm currently working with</p>
                 </div>
 

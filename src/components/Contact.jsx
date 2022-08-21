@@ -14,7 +14,7 @@ const Contact = () => {
             <div className="flex flex-col py-4 px-8 justify-center max-w-screen-lg mx-auto h-full">
                 {/* header */}
                 <div>
-                    <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+                    <p className="text-4xl font-bold inline border-b-4 border-red-700">
                         Contact Me
                     </p>
                     <p className="py-6">Submit form to get in touch with me</p>

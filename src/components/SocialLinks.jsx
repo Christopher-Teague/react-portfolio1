@@ -25,7 +25,7 @@ const SocialLinks = () => {
                 </>
             ),
             href: 'https://github.com/Christopher-Teague',
-            style: 'bg-gray-900 hover:bg-gray-800 opacity-50 hover:opacity-100'
+            style: 'bg-gray-900 hover:bg-zinc-800 opacity-50 hover:opacity-100'
         },
         {
             ///// opens users mail client to send email to designated address \\\\\
