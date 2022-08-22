@@ -41,16 +41,16 @@ const Portfolio = () => {
     return (
         <div
             name="portfolio"
-            className="p-10 bg-gradient-to-b from-slate-900 to-slate-800 w-full md:h-screen text-white"
+            className="p-10 w-full h-full bg-gradient-to-b from-slate-900 to-slate-800  text-white"
         >
-            <div className="max-w-screen-lg py-4 px-8 mx-auto flex flex-col justify-center w-full h-full">
+            <div className="max-w-screen-lg py-4 px-8 my-10 mx-auto flex flex-col justify-center w-full h-full">
                 {/* Heading */}
 
                 <div className="pb-1 ">
                     <p className="text-4xl font-bold inline border-b-4 border-red-700">
                         Portfolio
                     </p>
-                    <p className="py-4">Check out some of my work</p>
+                    <p className="py-6">Check out some of my work</p>
                 </div>
 
                 {/* content */}
