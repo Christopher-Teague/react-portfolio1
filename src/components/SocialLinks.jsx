@@ -15,7 +15,7 @@ const SocialLinks = () => {
                 </>
             ),
             href: 'https://www.linkedin.com/in/christopherteague/',
-            style: 'rounded-tr-md bg-gray-900 hover:bg-blue-600 opacity-50 hover:opacity-100'
+            style: 'rounded-tr-md bg-gray-900 hover:bg-blue-600 opacity-60 hover:opacity-100'
         },
         {
             id: 2,
@@ -25,7 +25,7 @@ const SocialLinks = () => {
                 </>
             ),
             href: 'https://github.com/Christopher-Teague',
-            style: 'bg-gray-900 hover:bg-zinc-800 opacity-50 hover:opacity-100'
+            style: 'bg-gray-900 hover:bg-zinc-800 opacity-60 hover:opacity-100'
         },
         {
             ///// opens users mail client to send email to designated address \\\\\
@@ -36,7 +36,7 @@ const SocialLinks = () => {
                 </>
             ),
             href: 'mailto:cmteague77@gmail.com',
-            style: 'bg-gray-900 hover:bg-yellow-700 opacity-50 hover:opacity-100'
+            style: 'bg-gray-900 hover:bg-yellow-700 opacity-60 hover:opacity-100'
         },
         {
             id: 4,
@@ -45,7 +45,7 @@ const SocialLinks = () => {
                     Resume <BsPersonLinesFill size={30} />
                 </>
             ),
-            style: 'rounded-br-md bg-gray-900 hover:bg-green-700 opacity-50 hover:opacity-100',
+            style: 'rounded-br-md bg-gray-900 hover:bg-green-700 opacity-60 hover:opacity-100',
             ///// allow user to download pdf file from public folder \\\\\ 
             /* href: '/resume.pdf',
             download: true */
@@ -72,7 +72,7 @@ const SocialLinks = () => {
                                 download={download}
                                 target='_blank'
                                 rel="noreferrer"
-                                className='flex justify-between items-center w-full text-slate-700 group-hover:text-white'
+                                className='flex justify-between items-center w-full text-slate-600 group-hover:text-white'
                             >
                                 {child}
                             </a>

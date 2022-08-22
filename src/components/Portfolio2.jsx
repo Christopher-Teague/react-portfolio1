@@ -5,29 +5,37 @@ import hotsauce from '../assets/projectImages/hotsauce.png'
 import chores from '../assets/projectImages/chores.png'
 import chat from '../assets/projectImages/chat.png'
 
+const style = {
+    button: `text-white w-fit px-6 py-3 my-2 mx-4 flex items-center rounded-md bg-gradient-to-br from-cyan-500 to-blue-600 hover:scale-110 duration-200`,
+}
+
 
 const projects = [
     {
         id: 1,
         src: chores,
+        desc: 'Chore Chart',
         demo: 'http://54.193.89.130/',
         code: 'https://github.com/Christopher-Teague/ChoreChart'
     },
     {
         id: 2,
         src: hotsauce,
+        desc: 'Hotsauce Fermentation Tracker',
         demo: 'http://50.18.2.155/dashboard',
         code: 'https://github.com/Christopher-Teague/hotsauce_tracker'
     },
     {
         id: 3,
         src: weather,
+        desc: 'Weather App',
         demo: '',
         code: 'https://github.com/Christopher-Teague/Weather-App'
     },
     {
         id: 4,
         src: chat,
+        desc: 'Firebase Chat App',
         demo: '',
         code: 'https://github.com/Christopher-Teague/ReactFirebaseChat'
     },
@@ -37,11 +45,11 @@ const projects = [
     // },
 ];
 
-const Portfolio = () => {
+const Portfolio2 = () => {
     return (
         <div
             name="portfolio"
-            className="p-10 w-full h-full bg-gradient-to-b from-slate-900 to-slate-800  text-white"
+            className="p-10 w-full h-full md:h-screen bg-gradient-to-b from-slate-900 to-slate-800  text-white"
         >
             <div className="max-w-screen-lg py-4 px-8 my-10 mx-auto flex flex-col justify-center w-full h-full">
                 {/* Heading */}
@@ -54,38 +62,46 @@ const Portfolio = () => {
                 </div>
 
                 {/* content */}
-                <div className="grid sm:grid-cols-2  gap-8 px-12 sm:px-0">
+                <div className="grid md:grid-cols-2  gap-8 px-12 sm:px-0">
 
                     {/* map over projects array to display individually */}
 
-                    {projects.map(({ id, src, demo, code }) => (
-                        <div key={id} className="object-cover shadow-md shadow-gray-600 rounded-lg">
-                            <img
+                    {projects.map(({ id, src, desc, demo, code }) => (
+                        <div style={{ backgroundImage: `url(${src})` }} key={id} className="object-scale-down shadow-md shadow-blue-500 rounded-lg h-[240px] bg-cover bg-center">
+                            {/* <img
                                 src={src}
                                 alt="placeholder"
                                 className="rounded-md duration-200 hover:scale-110 w-full"
-                            />
-                            <div className="flex items-center justify-center">
-                                {demo ?
+                            /> */}
+                            <div className="flex flex-col bg-slate-900/75 opacity-0 hover:opacity-100 flex items-center justify-around h-64 rounded-lg ">
+
+
+                                <p className="text-xl font-semibold">{desc}</p>
+
+                                <div className="flex items-center">
+
+                                    {demo ?
+                                        <a
+                                            href={demo}
+                                            target='_blank'
+                                            rel="noreferrer"
+                                        >
+                                            <button className={style.button}>
+                                                Demo
+                                            </button>
+                                        </a>
+                                        : null}
                                     <a
-                                        href={demo}
+                                        href={code}
                                         target='_blank'
                                         rel="noreferrer"
                                     >
-                                        <button className="w-1/2 px-4 py-2 m-4 duration-200 hover:scale-110">
-                                            Demo
+                                        <button className={style.button}>
+                                            Code
                                         </button>
                                     </a>
-                                    : null}
-                                <a
-                                    href={code}
-                                    target='_blank'
-                                    rel="noreferrer"
-                                >
-                                    <button className="w-1/2 px-4 py-2 m-4 duration-200 hover:scale-110">
-                                        Code
-                                    </button>
-                                </a>
+                                </div>
+
                             </div>
                         </div>
                     ))}
@@ -96,4 +112,4 @@ const Portfolio = () => {
     );
 };
 
-export default Portfolio;
+export default Portfolio2;

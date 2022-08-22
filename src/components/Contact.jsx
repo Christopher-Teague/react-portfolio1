@@ -31,6 +31,7 @@ const Contact = () => {
                             type="text"
                             name="name"
                             placeholder="Enter your name"
+                            required
                             className={style.input}
                         />
 
@@ -38,6 +39,7 @@ const Contact = () => {
                             type="text"
                             name="email"
                             placeholder="Enter your Email"
+                            required
                             // eslint-disable-next-line
                             className={"my-4" + " " + style.input}
                         />
@@ -46,6 +48,7 @@ const Contact = () => {
                             name="message"
                             rows="10"
                             className={style.input}
+                            required
                             placeholder="Enter your message"
                         />
 
