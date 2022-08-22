@@ -14,7 +14,7 @@ const Home2 = () => {
             <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
 
                 {/* content */}
-                <p className='text-xl text-red-700 font-semibold'>
+                <p className='text-xl sm:text-3xl text-red-700 font-semibold'>
                     Hi, my name is
                 </p>
                 <h1 className='text-4xl sm:text-7xl font-bold text-white'>

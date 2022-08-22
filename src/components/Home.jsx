@@ -1,5 +1,4 @@
 import React from 'react';
-import placeholder from '../assets/skull-master-chef.png';
 import { MdKeyboardArrowRight } from 'react-icons/md';
 import { Link } from 'react-scroll'
 
@@ -44,9 +43,9 @@ const Home = () => {
                 </div>
 
                 {/* Image */}
-                <div>
+                {/* <div>
                     <img src={placeholder} alt="My beautiful face" className='rounded-2xl mx-auto w-3/4 md:w-full' />
-                </div>
+                </div> */}
 
             </div>
         </div>

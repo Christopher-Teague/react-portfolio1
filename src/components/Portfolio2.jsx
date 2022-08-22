@@ -59,25 +59,25 @@ const Portfolio2 = () => {
                     <p className="text-4xl font-bold inline border-b-4 border-red-700">
                         Portfolio
                     </p>
-                    <p className="py-6">Check out some of my work</p>
+                    <p className="py-8">Check out some of my work</p>
                 </div>
 
                 {/* content */}
-                <div className="grid md:grid-cols-2  gap-8 px-12 sm:px-0">
+                <div className="grid md:grid-cols-2  gap-12 px-2 sm:px-0">
 
                     {/* map over projects array to display individually */}
 
                     {projects.map(({ id, src, desc, demo, code }) => (
-                        <div style={{ backgroundImage: `url(${src})` }} key={id} className="object-scale-down shadow-md shadow-blue-500 rounded-lg h-[240px] bg-cover bg-center">
+                        <div style={{ backgroundImage: `url(${src})` }} key={id} className="object-scale-down shadow-md shadow-blue-500 rounded-lg h-[300px] bg-cover bg-center">
                             {/* <img
                                 src={src}
                                 alt="placeholder"
                                 className="rounded-md duration-200 hover:scale-110 w-full"
                             /> */}
-                            <div className="flex flex-col bg-slate-900/[.9] opacity-0 hover:opacity-100 items-center justify-around rounded-lg h-[240px] ">
+                            <div className="flex flex-col bg-slate-900/[.90] opacity-0 hover:opacity-100 items-center justify-around rounded-lg h-[300px] ">
 
 
-                                <p className="text-2xl text-center font-semibold">{desc}</p>
+                                <p className="text-2xl text-center font-semibold p-4 mt-6">{desc}</p>
 
                                 <div className="flex items-center">
 

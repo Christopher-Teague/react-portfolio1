@@ -43,7 +43,7 @@ const NavBar = () => {
 
             {/* Corner Signature */}
             <div>
-                <h1 className='font-signature text-5xl ml-2 text-red-700'>CT</h1>
+                <h1 className='font-signature text-5xl ml-1 text-red-700'>CT</h1>
             </div>
 
             {/* Links */}
