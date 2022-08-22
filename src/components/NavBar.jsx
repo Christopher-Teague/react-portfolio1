@@ -39,7 +39,7 @@ const NavBar = () => {
 
     return (
         ///// Main container \\\\\
-        <div className='flex justify-between items-center w-full h-20 px-4 bg-slate-900 text-white fixed'>
+        <div className='z-10 flex justify-between items-center w-full h-20 px-4 bg-slate-900 text-white fixed'>
 
             {/* Corner Signature */}
             <div>
