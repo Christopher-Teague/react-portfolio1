@@ -4,6 +4,7 @@ import weather from '../assets/projectImages/Weather.png'
 import hotsauce from '../assets/projectImages/hotsauce.png'
 import chores from '../assets/projectImages/chores.png'
 import chat from '../assets/projectImages/chat.png'
+import { FaGithub } from 'react-icons/fa'
 
 const style = {
     button: `text-white w-fit px-6 py-3 my-2 mx-4 flex items-center rounded-md bg-gradient-to-br from-cyan-500 to-blue-600 hover:scale-110 duration-200`,
@@ -73,10 +74,10 @@ const Portfolio2 = () => {
                                 alt="placeholder"
                                 className="rounded-md duration-200 hover:scale-110 w-full"
                             /> */}
-                            <div className="flex flex-col bg-slate-900/75 opacity-0 hover:opacity-100 flex items-center justify-around h-64 rounded-lg ">
+                            <div className="flex flex-col bg-slate-900/[.9] opacity-0 hover:opacity-100 items-center justify-around rounded-lg h-[240px] ">
 
 
-                                <p className="text-xl font-semibold">{desc}</p>
+                                <p className="text-2xl text-center font-semibold">{desc}</p>
 
                                 <div className="flex items-center">
 
@@ -97,7 +98,7 @@ const Portfolio2 = () => {
                                         rel="noreferrer"
                                     >
                                         <button className={style.button}>
-                                            Code
+                                            <FaGithub size={20} />&nbsp;Code
                                         </button>
                                     </a>
                                 </div>
