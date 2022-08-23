@@ -23,8 +23,8 @@ const Home2 = () => {
                 <h2 className='text-4xl sm:text-7xl font-bold text-gray-500'>
                     I am a software Developer.
                 </h2>
-                <p className='text-gray-300 py-4 max-w-[700px]'>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta quis amet ut aliquid eum consequuntur expedita fuga debitis maiores earum eius, aliquam natus veritatis ipsum. Quia magni aspernatur omnis corporis.
+                <p className='text-gray-300 sm:text-xl py-4 max-w-[700px]'>
+                    I can also cook up amazing meals. I love being able to express my creativity while constantly learning and building up new skills.
                 </p>
 
                 {/* 'Portfolio button */}

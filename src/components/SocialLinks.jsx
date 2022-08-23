@@ -54,12 +54,9 @@ const SocialLinks = () => {
 
     return (
         <div>
-
-            {/* <div className='lg:hidden flex flex-col top-[10%] left-2 fixed'>
-                <MdViewSidebar size={30} className='text-gray-500' />
-            </div> */}
-
+            {/* container */}
             <div className='hidden md:flex flex-col top-[33%] left-0 fixed'>
+
                 <ul>
 
                     {links.map(({ id, child, href, style, download }) => (
@@ -81,6 +78,7 @@ const SocialLinks = () => {
                     ))}
 
                 </ul>
+
             </div>
 
         </div>

@@ -11,7 +11,9 @@ const Contact = () => {
             name="contact"
             className="p-10 w-full h-screen bg-gradient-to-b from-slate-900 to-slate-800 text-white"
         >
+            {/* container */}
             <div className="flex flex-col py-4 px-8 justify-center max-w-screen-lg mx-auto h-full">
+
                 {/* header */}
                 <div>
                     <p className="text-4xl font-bold inline border-b-4 border-red-700">
