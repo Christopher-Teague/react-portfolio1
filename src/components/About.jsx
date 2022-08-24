@@ -12,7 +12,7 @@ const About = () => {
                 </div>
 
                 <p className='text-xl mt-10'>
-                    I come from a well established career in the culinary industry. During my tenure, I was able to develop and bolster both my professionalism and technical skillset. Shifting my focus to software engineering enables me to leverage both the discipline and creativity I had as a cook in the cuilinary industry, and apply them to a different medium.
+                    I come from a well established career in the culinary industry. During my tenure, I was able to develop and bolster both my professionalism and technical skillset. Shifting my focus to software engineering enables me to leverage the discipline and creativity I had as a cook in the cuilinary industry, and apply them to a different medium.
                     {/* <hr className='my-2' />
                     <hr className='my-2' />
                     <hr className='my-2' />
