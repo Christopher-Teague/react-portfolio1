@@ -11,6 +11,13 @@ const About = () => {
                     <p className='text-4xl font-bold inline border-b-4 border-red-700'>About</p>
                 </div>
 
+                <p className='text-xl'>
+                    I am currently focused  on ( and really enjoying ) front-end web development using <span className='italic'>React</span> and <span className='italic'>Tailwind</span>.
+
+                </p>
+
+                <br />
+
                 <p className='text-xl mt-10'>
                     I come from a well established career in the culinary industry. During my tenure, I was able to develop and bolster both my professionalism and technical skillset. Shifting my focus to software engineering enables me to leverage the discipline and creativity I had as a cook in the cuilinary industry, and apply them to a different medium.
                     {/* <hr className='my-2' />
@@ -21,13 +28,6 @@ const About = () => {
                     My diverse background and skill sets have prepared me to be a successful contributing team member to any organization.
                     <hr className='my-2' />
                     my success in software development will be enhanced by my experience, while giving me an outlet for creative expression. */}
-
-                </p>
-
-                <br />
-
-                <p className='text-xl'>
-                    I am currently focused  on ( and really enjoying ) front-end web development using <span className='italic'>React</span> and <span className='italic'>Tailwind</span>.
 
                 </p>
 

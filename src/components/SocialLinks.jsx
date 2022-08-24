@@ -42,7 +42,7 @@ const SocialLinks = () => {
             id: 4,
             child: (
                 <>
-                    Resume <BsPersonLinesFill size={30} />
+                    Resume (disabled) <BsPersonLinesFill size={30} />
                 </>
             ),
             style: 'rounded-br-md bg-gray-900 hover:bg-green-700 opacity-60 hover:opacity-100',
@@ -81,7 +81,7 @@ const SocialLinks = () => {
 
             </div>
 
-        </div>
+        </div >
     )
 }
 
