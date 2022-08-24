@@ -27,7 +27,7 @@ const About = () => {
                 <br />
 
                 <p className='text-xl'>
-                    I am currently focused  on ( and really enjoying ) front-end development using React and Tailwind.
+                    I am currently focused  on ( and really enjoying ) front-end web development using React and Tailwind.
 
                 </p>
 
