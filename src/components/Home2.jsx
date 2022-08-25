@@ -21,7 +21,7 @@ const Home2 = () => {
                     Christopher Teague.
                 </h1>
                 <h2 className='text-4xl sm:text-7xl font-bold text-gray-500'>
-                    I am a software Developer.
+                    I am a Software Developer.
                 </h2>
                 <p className='text-white sm:text-xl py-4 max-w-[700px]'>
                     I love being able to express my creativity while constantly learning and building up new skills. I'm currently focused on building interactive experiences on the web with <span className='italic'>React</span> and <span className='italic'>Tailwind</span>.
