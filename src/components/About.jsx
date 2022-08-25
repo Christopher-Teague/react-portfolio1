@@ -22,7 +22,7 @@ const About = () => {
                 </p>
                 <br />
                 <p className='text-xl'>
-                    When we consume something, whether it be a meal or a website, our first impressions generally come from what we see. I want to deliver experiences that are not only visually appealing, but also engaging, functional, and make the consumer excited to return.
+                    When we consume something, whether it be a meal or a website, our first impressions generally come from what we see. I strive to deliver experiences that are not only visually appealing, but also engaging, functional, and make the consumer excited to return.
                 </p>
             </div>
         </div>
