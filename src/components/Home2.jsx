@@ -24,7 +24,12 @@ const Home2 = () => {
                     I am a software Developer.
                 </h2>
                 <p className='text-white sm:text-xl py-4 max-w-[700px]'>
-                    I can also cook up amazing meals. I love being able to express my creativity while constantly learning and building up new skills.
+                    I love being able to express my creativity while constantly learning and building up new skills. I'm currently focused on building interactive experiences on the web with <span className='italic'>React</span> and <span className='italic'>Tailwind</span>.
+                    <br />
+                    <span className='sm:text-xl font-semibold text-gray-500'>
+                        I can also cook amazing meals!
+                    </span>
+
                     {/* I am currently focused  on ( and really enjoying ) front-end development using <span className='italic'>React</span> and <span className='italic'>Tailwind</span>. */}
                 </p>
 

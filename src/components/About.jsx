@@ -12,13 +12,15 @@ const About = () => {
                 </div>
 
                 <p className='text-xl'>
-                    I am currently focused  on ( and really enjoying ) front-end web development using <span className='italic'>React</span> and <span className='italic'>Tailwind</span>.
+                    {/* I am currently focused  on ( and really enjoying ) front-end web development using <span className='italic'>React</span> and <span className='italic'>Tailwind</span>. */}
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et excepturi quia nihil earum tenetur numquam dolore omnis voluptates autem recusandae.
 
                 </p>
 
                 <br />
 
-                <p className='text-xl mt-10'>
+                <p className='text-xl mt-4'>
                     I come from a well established career in the culinary industry. During my tenure, I was able to develop and bolster both my professionalism and technical skillset. Shifting my focus to software engineering enables me to leverage the discipline and creativity I had as a cook in the cuilinary industry, and apply them to a different medium.
                     {/* <hr className='my-2' />
                     <hr className='my-2' />
