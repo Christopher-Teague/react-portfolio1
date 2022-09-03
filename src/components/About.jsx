@@ -12,7 +12,7 @@ const About = () => {
                 </div>
 
                 <p className='text-xl'>
-                    I come from a well established career in the culinary industry. During my tenure, I was able to develop and bolster both my professionalism and technical skillsets. Shifting my focus to software engineering enables me to leverage the discipline and creativity I expressed as a cook, and apply them to a different medium.
+                    I come from a well established career in the culinary industry. During my tenure, I was able to develop and bolster both my professionalism and technical skillsets.
 
                     {/* <hr className='my-2' />
                     
@@ -20,9 +20,11 @@ const About = () => {
                      */}
 
                 </p>
+
                 <br />
+
                 <p className='text-xl'>
-                    When we consume something, whether it be a meal or a website, our first impressions generally come from what we see. I strive to deliver experiences that are not only visually appealing, but also engaging, functional, and make the consumer excited to return.
+                    Shifting my focus to software engineering enables me to leverage the discipline and creativity I expressed as a cook, and apply them to a different medium. When we consume something, whether it be a meal or a website, our first impressions generally come from what we see. I strive to deliver experiences that are not only visually appealing, but also engaging, functional, and make the consumer excited to return.
                 </p>
             </div>
         </div>

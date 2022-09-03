@@ -23,18 +23,24 @@ const Home2 = () => {
                 <h2 className='text-4xl sm:text-7xl font-bold text-gray-500'>
                     I am a Software Developer.
                 </h2>
-                <p className='text-white sm:text-xl py-4 max-w-[700px]'>
-                    I love being able to express my creativity while constantly learning and building up new skills. I'm currently focused on building interactive experiences on the web with <span className='italic'>React</span> and <span className='italic'>Tailwind</span>.
+                <p className='text-white text-xl py-4 max-w-[700px]'>
+
+                    A thinker, a tinkerer, a builder, a creative, and a learner. <br />
+                    I love getting my hands dirty, finding elegant solutions to problems, and reaching for the right tools. I'm currently building interactive experiences on the web with <span className='italic'>React</span> and <span className='italic'>Tailwind</span>.
+
+                    {/* I love being able to express my creativity while constantly learning and building up new skills. I'm currently focused on building interactive experiences on the web with <span className='italic'>React</span> and <span className='italic'>Tailwind</span>. */}
+
                     <br />
-                    <span className='sm:text-xl font-semibold text-gray-500'>
+
+                    <p className='mt-1 text-xl font-semibold text-gray-500'>
                         I can also cook amazing meals!
-                    </span>
+                    </p>
 
                     {/* I am currently focused  on ( and really enjoying ) front-end development using <span className='italic'>React</span> and <span className='italic'>Tailwind</span>. */}
                 </p>
 
                 {/* 'Portfolio button */}
-                <div>
+                <div className='mt-2'>
                     <Link
                         to='portfolio'
                         smooth
